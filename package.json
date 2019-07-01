@@ -1,0 +1,21 @@
+{
+  "name": "ibook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "init": "gitbook init"
+  },
+  "scripts": {
+    "clean": "rm -rf ./_book; rm -rf ./docs"
+  },
+  "scripts": {
+    "build": "gitbook build . ./docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
